@@ -4,4 +4,8 @@ For this challenge, I wrote some functions and refactored the code in order to m
 
 ## Link
 
+[Live URL](https://akelstrom.github.io/password-generator/)
+
 ## Screenshot
+
+![Password Generator Screenshot](https://github.com/akelstrom/password-generator/blob/master/Screenshot%20Password-Generator.png?raw=true)
