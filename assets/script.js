@@ -22,6 +22,7 @@ function writePassword() {
   confirmNumber();
   confirmLowerCase();
   confirmUpperCase();
+  
   //password is the result of generate password function with an argument of length
   var password = generatePassword(length);
   
@@ -33,6 +34,14 @@ function writePassword() {
 
 //generate password function with length as an argument--(So that the computer knows how long to make the password
 function generatePassword (length) {
+  
+//ATTN: I COMMENTED OUT LINES 39-42 BECAUSE FOR SOME REASON, ONCE THE FUNCTION STARTS OVER AGAIN, THE PASSWORD COMES UP AS UNDEFINED. 
+  // if (selectedCharacters === null || selectedCharacters === "") {
+  //   window.alert("You must select at least one character type. Please try again.");
+  //   return writePassword();
+  // }
+
+
   var ranPassword = "";
 //for loop to generate new password
 for (var i = 0; i < length; i++) {
