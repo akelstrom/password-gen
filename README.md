@@ -1,6 +1,6 @@
 ## Description
 
-For this challenge, I wrote some functions and refactored the code in order to make a functioning password generator. When you click the "generate" button, the window will prompt you to choose your desired password length that must be between 8 and 128 characters. If the user submits a number outside of that range, there will be an alert that tells you to try again, and you will have another opportunity to enter your password length. Then you will get a series of alerts that will ask you if you want special characters, numbers, lowercase letters, and uppercase letters included in your password. After the user responds to all the alerts, the password will display in the box.
+For this challenge, I wrote some functions and refactored the code in order to make a functioning password generator. When you click the "generate" button, the window will prompt you to choose your desired password length that must be between 8 and 128 characters. If the user submits a number outside of that range, there will be an alert that tells you to try again and you will have another opportunity to enter your password length. Then you will get a series of alerts that will ask you if you want special characters, numbers, lowercase letters, and/or uppercase letters included in your password. After the user responds to all the alerts, the password will display in the box.
 
 ## Link
 
