@@ -15,6 +15,7 @@ function writePassword() {
   var length = passwordLength();
   if (length < 8|| length > 128) {
     window.alert('Your password length must be between 8-128 characters. Please try again.');
+    return passwordLength();
   } 
   //calling the other functions to check if user wants special characters, numbers, uppercase letters and lowercase letters
   confirmSpecialCharacter();
