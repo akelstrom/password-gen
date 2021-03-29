@@ -6,6 +6,8 @@ Access the live Application [Here](https://akelstrom.github.io/password-generato
 
 ## Built With:
 * JavaScript
+* HTML
+* CSS
 
 ## Usage
 ![Password Generator Screenshot](https://github.com/akelstrom/password-generator/blob/master/Screenshot%20Password-Generator.png?raw=true)
